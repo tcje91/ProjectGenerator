@@ -1,0 +1,27 @@
+{
+  "name": "ProjectGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "projectGenerator.js",
+  "dependencies": {
+    "inquirer": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcje91/ProjectGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcje91/ProjectGenerator/issues"
+  },
+  "homepage": "https://github.com/tcje91/ProjectGenerator#readme",
+  "bin": {
+    "generate": "./projectGenerator.js"
+ }
+}
