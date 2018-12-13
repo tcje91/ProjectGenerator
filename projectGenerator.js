@@ -30,7 +30,7 @@ fs.mkdir(`${process.cwd()}/myProject`, error => {
     console.log("gitignore file written");
   });
   fs.readFile(
-    "./sampleFiles/packageSample.json",
+    `${__dirname}/sampleFiles/packageSample.json`,
     (error, fileContents) => {
       if (error) console.log(error);
       fs.writeFile(`${process.cwd()}/myProject/package.json`, fileContents, error => {
